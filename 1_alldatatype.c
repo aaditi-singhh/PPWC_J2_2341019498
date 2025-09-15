@@ -14,9 +14,10 @@
     scanf("%f",&b);
     printf("float is: %f \n",b);
     
-    printf("enter a character ");
-    scanf("%c",&c);
-    printf("character is: %c \n",c);
+ 
+    printf("Enter a char :");
+    scanf(" %c",&c);            
+    printf("The entered char is : %c",c);
 
 
     return 0;
